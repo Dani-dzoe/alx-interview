@@ -24,7 +24,7 @@ def pascal_triangle(n):
         #create a new row
         row = []
         # iterate up to size of previous row + 1
-        # because new roll will have one more element than previous
+        # because new row will have one more element than previous
         for j in range(len(triangle[-1]) + 1):
             #add values to next new row
             row.append(temp[j] + temp[j + 1])
