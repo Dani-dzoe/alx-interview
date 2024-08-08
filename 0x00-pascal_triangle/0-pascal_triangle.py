@@ -17,7 +17,7 @@ def pascal_triangle(n):
     triangle = [[1]]
 
     #iterate up to size (n - 1)
-    for i int range(n - 1):
+    for i in range(n - 1):
         #pick the previous list
         #add zeros to both ends
         temp = [0] + triangle[-1] + [0]
